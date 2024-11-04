@@ -1,5 +1,5 @@
-from pytube import YouTube  # Import the 'YouTube' class from the 'pytube' library for downloading YouTube videos.
-
+from pytubefix import YouTube   # Import the 'YouTube' class from the 'pytube' library for downloading YouTube videos.
+from pytubefix.cli import on_progress
 
 def Download(link, value): # Define a function named 'Download' that takes two arguments: 'link' (the video URL) and 'value' (either 'mp3', 'mp4', or 'both').
     try:
